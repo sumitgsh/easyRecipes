@@ -1,0 +1,191 @@
+
+*{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=Email] {
+    width: 90%;
+    padding: 8px 12px;
+    margin: 6px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+
+   
+    
+}
+
+
+input[type=text]:hover,input[type=password]:hover
+ {
+  box-shadow:3px 2px #1EC66C ;  
+
+}
+
+/* Set a style for all buttons */
+#submitButton{
+
+    background-color: #4CAF50;
+    border-radius:30px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px !important;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+
+
+:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.avatar {
+    width: 200px;
+	height:200px;
+    border-radius: 50%;
+}
+
+
+/* The Modal (background) */
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto!important;
+    background-color: rgba(169,169,169,0.5);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 0% auto 15% auto;
+    border: 1px solid #888;
+    width: 35%!important; 
+	padding-bottom: 30px;
+    border-radius:20px;
+
+}
+.recmodal-content
+{
+     background-color: #fefefe;
+     margin: 4% auto 15% auto;
+    border: 1px solid #888;
+     
+    padding-bottom: 30px;
+    border-radius:20px;
+      width: 50%; 
+      height: 89%;    
+}
+
+/* The Close Button (x) */
+.closef {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.closer {
+    position: absolute;
+    right: 25px;
+    top: 13px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.closef:hover,.closef:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* ADD recipe .HTML*/
+
+label
+{
+    display: inline-block;
+    width:30px;
+    text-align: right;
+    margin-left: 7px;
+}
+input[type=rtext], input[type=rpassword],input[type=rEmail] {
+    width: 70%;
+    padding: 8px 12px;
+    margin: 6px 26px;
+    display: inline-block;
+    border: 1px solid #c4b9b9;
+    box-sizing: border-box;
+    font-size:16px;
+    position: relative;
+    left:78px;
+   
+    
+}
+input[type=rtext]:hover,input[type=rpassword]:hover
+ {
+  box-shadow:3px 2px #1EC66C ;  
+
+}
+
+.rcontainer
+{
+box-sizing: border-box;
+
+    transform: translate(0%,0%);
+}
+
+#sel
+{    
+width:10%;
+box-sizing: border-box;
+object-fit:cover;
+border:solid 2px #595959;
+}
+
+img #sel{
+    display: block;
+    height: 100%;
+    width:100%;
+
+}
+
+
+.rcontainer .datasection
+{
+    transform: translate(0%,0%);
+}
+.isection
+{
+  transform: translate(0%,-15%);   
+}
+.isection .imove
+{
+    position: relative;
+    top:90%;
+    left:73%;
+    display: inline-block;
+    width: 180%;
+    transform: translate( 0px,110px);
+}
